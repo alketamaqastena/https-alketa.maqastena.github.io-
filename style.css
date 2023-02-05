@@ -1,0 +1,313 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+
+}
+#MobileriaArgjendi{
+    background-image: url(images/bacground.jpg); 
+    background-size: cover;
+    height: 100vh;
+    background-attachment:fixed; 
+   font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.logo
+{
+    color: rgba(223, 178, 82, 0.616);
+    font-size: 37px;
+    letter-spacing: 2px;
+    text-align: left;
+    text-shadow: 2px 2px rgb(46, 46, 46);
+    display: inline;
+}
+.logo2{
+    color: rgba(223, 178, 82, 0.616);
+    font-size: 30px;
+    letter-spacing: 2px;
+    text-align: left;
+    text-shadow: 2px 2px rgb(46, 46, 46);
+    display: inline;
+}
+.about
+{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    text-align: center;
+    color: #fff;
+
+} 
+.about>h1{
+    font-size: 40px;
+    letter-spacing: 2px;
+    text-shadow: 4px 4px rgba(41, 41, 41, 0.856);
+}
+
+/* FAQJA E PRODUKTEEEV  FILLIMI*/
+#pageofproducts-am{
+    background-image: none; 
+    background-color:rgb(53, 61, 61);   
+    display: grid;
+    place-items: center center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.menuja{
+    width: 100%;
+    top:0;
+}
+.posterat-am{
+    display:grid;
+    grid-template-columns: repeat(auto-fit,minmax(400px,1fr));
+    padding: 20px;
+    grid-gap: 40px;   
+}
+.posteri-am{
+    background-color: rgb(31, 32, 32);
+    border-radius: 20px;
+    box-shadow:0 0 30px rgba(0, 0,0, 0.18 ) ;
+}
+.container-produktet{
+    position:relative ;
+    clip-path: polygon(0 0,100% 0,100% 85%,0 100%);
+
+}
+img{
+    width: 100%;
+    display: block;
+    border-radius: 20px 20px 0 0;
+}
+.container-produktet:after{
+content: "";
+height: 100%;
+width: 100%;
+position: absolute;
+top: 0;
+left: 0;
+border-radius: 20px 20px 0 0;
+opacity: 0.7;
+}
+.detajet-am{
+padding: 20px 10px;
+}
+.detajet-am>h3{
+    color: #fff;
+    font-weight: 600;
+    font-size: 22px;
+    margin: 10px 0 15px 0;
+    
+}
+.detajet-am>h3 a{
+    text-decoration: none;
+    color: #fff;
+
+}
+.detajet-am>h3 a:hover{
+    color: rgb(77, 77, 77);
+}
+.detajet-am>p{
+    color: #fff;
+    font-size: 15px;
+    line-height: 30px;
+    font-weight: 400;
+    text-align: left;
+} 
+
+
+/* FAQJA E PRODUKTIT MBARIMI */
+
+/*FILLIMI FAQJA PER INFORMATA */
+#informatat.am{
+    background-image:url(images/a1d11b66e8ac37f1b7a1aee4c0226502.jpg);
+    background-color:rgb(18, 26, 26);  
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+
+/* FUNDI I FAQES SE INFORMATAVE */
+
+#faqjaperinfo-am{
+
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(27, 27, 27);
+    /* background-image: url(images/infopage.jpg); 
+    background-repeat: no-repeat;
+    background-size: auto;*/
+
+
+}
+.informattat-am{
+    text-align: center;
+    background-color: rgba(65, 63, 63, 0.568);
+    color: #fff;
+}
+ .informattat-am>h1{ 
+    text-align: center;
+    font-weight: bold;
+    font-size:3vw ;
+
+    
+  }
+.informattat-am>h3{
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    font-size:3vw ;
+  }
+
+/* FILLIMI I FAQES SE KONTAKTIT */
+
+#contactpage-am{
+    background-image: url(images/bacground.jpg); 
+    background-size: cover;
+    height: 100vh;
+    background-attachment:fixed; 
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: #fff;
+}
+.k{
+    background-color: #1b1b1b96; 
+
+}
+.heading-am{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    border-bottom: 2px solid rgba(153, 150, 150, 0.774); 
+}
+.container-contact{
+    margin-top: 0;
+    height: 100%;
+   
+}
+.formcontrol-am{
+    
+    margin-bottom: 14px;
+    padding:6px;
+    /* border: spacing bottom 10px;; */
+    width: 100%;
+    height: auto;
+
+}
+.pozita-am{ 
+    position:relative;
+    margin-left:35px ;
+    padding: 30px;
+
+}
+
+h2{
+    text-align: center;
+
+}
+p{
+    text-align: center;
+}
+.btn-info{
+    width: 50%; 
+    letter-spacing: 2px;
+    background: transparent;
+    transition: all 0.5s ease-in-out ;
+}
+.btn-info:hover{
+    transform: scale(1.05);
+}
+.ikonat-am{
+    font-family: monospace;
+    font-size: 20px;
+    margin-left: 0;
+}
+.socialmedia-am{
+    display: flex;
+    text-decoration: none;
+    text-align: center;
+    margin-left: 117px;
+    font-size: 35px;
+
+}
+.socialmedia-am ul li{
+    display: inline;
+    text-decoration:dashed;
+    text-align: center;
+    margin-left: 60px
+}
+/* FUNDI I FAQES SE KONTAKTIT */
+/* FILLIMI I PRODUKTEVE */
+#pageofproducts1-am{
+    background-image: none;
+    background-color:rgb(42, 48, 48);   
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    display: grid;
+    place-items: center center;
+}
+.menuja{
+    width: 100%;
+    top:0;
+}
+.posteratprodukti-am
+{
+    display:grid;
+    grid-template-columns: repeat(auto-fit,minmax(230px,1fr));
+    padding: 20px;
+    grid-gap: 40px;
+    
+}
+.posteriprodukti-am{
+    background-color: rgb(73, 80, 80);
+    border-radius: 20px;
+    box-shadow:0 0 30px rgba(0, 0,0, 0.18 ) ;
+}
+.container-produktet1{
+    position:relative ;
+}
+img{
+    width: 100%;
+    display: block;
+    border-radius: 20px 20px 0 0;
+}
+.container-produktet1:after{
+content: "";
+height: 100%;
+width: 100%;
+position: absolute;
+top: 0;
+left: 0;
+border-radius: 20px 20px 0 0;
+opacity: 0.7;
+}
+.detajetprodukti1-am{
+padding: 20px 10px;
+}
+.detajetprodukti-am>h3{
+    color: #fff;
+    font-weight: 600;
+    font-size: 18px;
+    margin: 10px 0 15px 0;
+    
+}
+.detajetprodukti1-am>h3 a{
+    text-decoration: none;
+    color: #fff;
+
+}
+.detajetprodukti1-am>h3 a:hover{
+    color: rgb(77, 77, 77);
+}
+.detajetprodukti1-am>p{
+    color: #fff;
+    font-size: 15px;
+    line-height: 30px;
+    font-weight: 400;
+    text-align: left;
+} 
+
+
+
+/* FILLIMI I FAQEVE TE PRODUKTEVE. */
+
+
+
+
+
+
